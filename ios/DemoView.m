@@ -14,7 +14,13 @@
 - (instancetype)init
 {
 	if (self = [super init]) {
-		NSURL *jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+		NSLog(@"%@", [NSBundle bundleForClass:[self class]]);
+		NSLog(@"%@", [NSBundle bundleWithIdentifier:@"co.interactivelabs.Packager"]);
+		NSBundle *staticBundle = [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"PackagerBundle.bundle"]];
+		NSLog(@"%@ %@",staticBundle, [[NSBundle mainBundle] resourcePath]);
+
+		NSURL *jsCodeLocation = [[NSBundle bundleForClass:[self class]] URLForResource:@"main" withExtension:@"jsbundle"];
+		NSLog(@"%@", jsCodeLocation);
 
 		RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
 																												moduleName:@"Demo"
