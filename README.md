@@ -1,6 +1,6 @@
 #Demo Project for Xealth
 
-*this project demostrate how to convert a React Native app into a pod*
+*this project demostrates how to convert a React Native app(view) into a pod*
 
 
 ### Steps:
