@@ -1,15 +1,19 @@
 //
 //  Packager.h
-//  Demo
+//  Packager
 //
-//  Created by Rex Sheng on 6/29/16.
+//  Created by Rex Sheng on 6/30/16.
 //  Copyright © 2016 Facebook. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Cocoa/Cocoa.h>
 
-#if !defined (TARGET_OS_IOS) // Defined starting in iOS 9
-#define TARGET_OS_IOS 1
-#endif
+//! Project version number for Packager.
+FOUNDATION_EXPORT double PackagerVersionNumber;
 
-#import "DemoView.h"
+//! Project version string for Packager.
+FOUNDATION_EXPORT const unsigned char PackagerVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <Packager/PublicHeader.h>
+
+
