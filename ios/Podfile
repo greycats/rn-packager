@@ -11,3 +11,7 @@ target "Packager" do
     'RCTWebSocket',
   ]
 end
+
+target "Demo" do
+  pod 'Xealth', :path => '../Xealth.podspec'
+end

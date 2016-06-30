@@ -9,6 +9,7 @@ PODS:
     - React/Core
   - React/RCTWebSocket (0.28.0):
     - React/Core
+  - Xealth (0.0.1)
 
 DEPENDENCIES:
   - React/Core (from `../node_modules/react-native`)
@@ -16,14 +17,18 @@ DEPENDENCIES:
   - React/RCTNetwork (from `../node_modules/react-native`)
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
+  - Xealth (from `../Xealth.podspec`)
 
 EXTERNAL SOURCES:
   React:
     :path: "../node_modules/react-native"
+  Xealth:
+    :path: "../Xealth.podspec"
 
 SPEC CHECKSUMS:
   React: 43544faed4af6a0e8fbc4b3abd26141ed654fa49
+  Xealth: d86fa7004c0c2973616dedfe34ff08b27b4c69c6
 
-PODFILE CHECKSUM: f5f48235210a65fc3f24948eafba3ee8d37802de
+PODFILE CHECKSUM: 05d34bce1e148caa74c9e8cda4ec00ff3dccd1d8
 
 COCOAPODS: 1.0.0
