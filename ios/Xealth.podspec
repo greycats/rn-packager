@@ -9,9 +9,10 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "A short description of Xealth."
   s.description  = <<-DESC
+  Demo project for packaging a react native app into a framework
                    DESC
 
-  s.homepage     = "http://EXAMPLE/Xealth"
+  s.homepage     = "https://github.com/greycats/rn-packager"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   s.license      = "BSD"
@@ -24,7 +25,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "git@github.com:greycats/rn-packager.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/greycats/rn-packager.git", :tag => "#{s.version}" }
   s.source_files  = "DemoView.{h,m}"
   # s.resources = "main.jsbundle"
   s.resource_bundle = { 'XealthResource' => 'main.jsbundle' }
