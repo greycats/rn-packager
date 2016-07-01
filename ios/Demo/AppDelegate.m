@@ -8,7 +8,7 @@
  */
 
 #import "AppDelegate.h"
-@import Xealth;
+#import "XealthView.h"
 
 @implementation AppDelegate
 
@@ -16,7 +16,7 @@
 {
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   UIViewController *rootViewController = [UIViewController new];
-	rootViewController.view = [[DemoView alloc] init];
+	rootViewController.view = [[XealthView alloc] initWithProperties:nil];
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   return YES;

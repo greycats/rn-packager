@@ -1,15 +1,11 @@
-#Demo Project for Xealth
+#Xealth - Packager
 
-*this project demostrates how to convert a React Native app(view) into a pod*
+*this project prepares a basic react native project into a cocoapod with its RootView ready to use*
 
+*the Xealth.podspec should work out of the box, but to generate a pod of your own:* 
 
-### Steps:
+### Baking Steps:
 
-this podspec should work out of the box, but to generate a pod of your own project, these are the steps:
-
-1. `npm install` to make sure React Native is downloaded
-2. in ios folder, `pod install`, for preparing React pod
-3. in ios folder, run `react-framework.sh` to pack React pod into a React.framework
-4. (...add other deps into this .podspec)
-4. in ios folder, `pod install` again, to link local podspec to the Demo app
-5. Demo target is ready!
+1. Delete all Libraries references of React-* and use `pod install` instead
+2. Run `ios/react-framework.sh` to pack the react native app into a React.framework with main.jsbundle
+3. Now `Xealth.podspec` is ready to use!

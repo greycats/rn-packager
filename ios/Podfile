@@ -2,7 +2,7 @@ platform :ios, '8.0'
 
 use_frameworks!
 
-target "Packager" do
+target "Demo" do
   pod 'React', :path => '../node_modules/react-native', :subspecs => [
     'Core',
     'RCTImage',
@@ -10,8 +10,4 @@ target "Packager" do
     'RCTText',
     'RCTWebSocket',
   ]
-end
-
-target "Demo" do
-  pod 'Xealth', :path => '../Xealth.podspec'
 end
