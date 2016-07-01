@@ -1,12 +1,20 @@
 #!/bin/sh
 
+CURRENTDIR=`pwd`
+
+_BASEDIR=$(dirname "$0")
+BASEDIR=${CURRENTDIR}/${_BASEDIR}
+cd ${BASEDIR}
+
+pod install
+
 NODE_BINARY=node UNLOCALIZED_RESOURCES_FOLDER_PATH=ios CONFIGURATION_BUILD_DIR=. CONFIGURATION=Release ../node_modules/react-native/packager/react-native-xcode.sh
 
-BUILD_ROOT=`pwd`
+BUILD_ROOT=${BASEDIR}
 BUILD_DIR=${BUILD_ROOT}/build
 CONFIGURATION=Release
 PROJECT_NAME=React
-PROJECT_DIR=`pwd`
+PROJECT_DIR=${BASEDIR}
 
 UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal
 
@@ -14,8 +22,8 @@ UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal
 mkdir -p "${UNIVERSAL_OUTPUTFOLDER}"
 
 # Step 1. Build Device and Simulator versions
-xcodebuild -workspace 'Demo.xcworkspace' -scheme "${PROJECT_NAME}" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR="${BUILD_DIR}" BUILD_ROOT="${BUILD_ROOT}" clean build
-xcodebuild -workspace 'Demo.xcworkspace' -scheme "${PROJECT_NAME}" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR="${BUILD_DIR}" BUILD_ROOT="${BUILD_ROOT}" clean build
+xcodebuild -workspace "Demo.xcworkspace" -scheme "${PROJECT_NAME}" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR="${BUILD_DIR}" BUILD_ROOT="${BUILD_ROOT}" clean build
+xcodebuild -workspace "Demo.xcworkspace" -scheme "${PROJECT_NAME}" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR="${BUILD_DIR}" BUILD_ROOT="${BUILD_ROOT}" clean build
 
 # Step 2. Copy the framework structure (from iphoneos build) to the universal folder
 cp -R "${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}/${PROJECT_NAME}.framework" "${UNIVERSAL_OUTPUTFOLDER}/"
@@ -33,4 +41,7 @@ lipo -create -output "${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJ
 cp -R "${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework" "${PROJECT_DIR}"
 
 # Step 6. Convenience step to open the project's directory in Finder
+
+cd ${CURRENTDIR}
+
 open "${PROJECT_DIR}"

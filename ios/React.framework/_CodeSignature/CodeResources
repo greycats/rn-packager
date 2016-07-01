@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Layout.h</key>
 		<data>
-		dcEMBZrlGDyCoItijHzTMWDNrdU=
+		Ptgi82E+Cmljn0MRZ7OzE2fqkVo=
 		</data>
 		<key>Headers/RCTAccessibilityManager.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/RCTAppState.h</key>
 		<data>
-		6Uofg1Rwthd+fXsxTQtOYWTF03U=
+		+Ueq0M0TbXBdDt7T8oHxZZYm0TA=
 		</data>
 		<key>Headers/RCTAssert.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/RCTBridgeDelegate.h</key>
 		<data>
-		QOufj9j1R/vvgFBtg5uH32ONyQY=
+		kk5FZxE8Tul3+xBM8kkiXnMTB6U=
 		</data>
 		<key>Headers/RCTBridgeMethod.h</key>
 		<data>
@@ -67,10 +67,6 @@
 		<key>Headers/RCTBridgeModule.h</key>
 		<data>
 		6aJdT3lEYauh1nRDMYQ5gEwgC/w=
-		</data>
-		<key>Headers/RCTBundleURLProvider.h</key>
-		<data>
-		m9J7t/fU01iCFhy13s6vDe+nFEk=
 		</data>
 		<key>Headers/RCTClipboard.h</key>
 		<data>
@@ -126,7 +122,7 @@
 		</data>
 		<key>Headers/RCTEventDispatcher.h</key>
 		<data>
-		U5dqasyXiAK7xpf2e8gPRxVsuQM=
+		hOEvRXOWI7JoqqcoK01X8XDdPbQ=
 		</data>
 		<key>Headers/RCTEventEmitter.h</key>
 		<data>
@@ -166,11 +162,11 @@
 		</data>
 		<key>Headers/RCTImageLoader.h</key>
 		<data>
-		+s1TXljAo8gw2xgKz6P/nOOxS8U=
+		9KFnIiYLyB9U+c7KWA3L7zMzb9Q=
 		</data>
 		<key>Headers/RCTImageSource.h</key>
 		<data>
-		RfWDuOOlMh6jCM9d8tQ8ebc2PvI=
+		1nEEem0F2+JHCErog+eDOki8R1Y=
 		</data>
 		<key>Headers/RCTImageStoreManager.h</key>
 		<data>
@@ -194,15 +190,11 @@
 		</data>
 		<key>Headers/RCTJSCExecutor.h</key>
 		<data>
-		nt1YpasXxJfIaACyyV3Z3DxwY6M=
+		HrzxPBML9XHkRhd88Xq4pKvZi60=
 		</data>
 		<key>Headers/RCTJSCProfiler.h</key>
 		<data>
 		eS8CBOiuPa5ZDYxafyWPKP7PdbI=
-		</data>
-		<key>Headers/RCTJSCWrapper.h</key>
-		<data>
-		StLYihWQKkt3uilD6VaEmB9bJg4=
 		</data>
 		<key>Headers/RCTJavaScriptExecutor.h</key>
 		<data>
@@ -214,7 +206,7 @@
 		</data>
 		<key>Headers/RCTKeyCommands.h</key>
 		<data>
-		mNOrZlZ91Tv4MkTFBl+oGrttZC4=
+		m5oqMSfeSeDlgsJTlwACq+mWfu8=
 		</data>
 		<key>Headers/RCTKeyboardObserver.h</key>
 		<data>
@@ -282,7 +274,7 @@
 		</data>
 		<key>Headers/RCTNetInfo.h</key>
 		<data>
-		o10nXa+K5dThek253EedaMMiGuQ=
+		zYpnYmXlOxjhTRFIacl99S5qnq0=
 		</data>
 		<key>Headers/RCTNetworkTask.h</key>
 		<data>
@@ -290,7 +282,7 @@
 		</data>
 		<key>Headers/RCTNetworking.h</key>
 		<data>
-		vWwD50GLgc8E4iz++NdTrm3IplA=
+		TLeEWWGFl4MnMEoGU+owC9L9sws=
 		</data>
 		<key>Headers/RCTNullability.h</key>
 		<data>
@@ -302,7 +294,7 @@
 		</data>
 		<key>Headers/RCTPerformanceLogger.h</key>
 		<data>
-		7FPlvxW39IOqrVEMBZUt1aLIX6c=
+		VrN3Z6/7gWHrs1cKanbJXr2YnlQ=
 		</data>
 		<key>Headers/RCTPicker.h</key>
 		<data>
@@ -366,7 +358,7 @@
 		</data>
 		<key>Headers/RCTScrollView.h</key>
 		<data>
-		h1rZj1p8o6jdBg4T17IQdLKFNEs=
+		1DDmqNJBvMG+6DOt5HsdtN2Qauc=
 		</data>
 		<key>Headers/RCTScrollViewManager.h</key>
 		<data>
@@ -394,7 +386,7 @@
 		</data>
 		<key>Headers/RCTShadowView.h</key>
 		<data>
-		xIhXNXSHLwU//uzoCokSIcFMG1s=
+		2Sk7QLdSBZ3ukChvTT3oLK3Ui8c=
 		</data>
 		<key>Headers/RCTSlider.h</key>
 		<data>
@@ -426,7 +418,7 @@
 		</data>
 		<key>Headers/RCTTabBarItem.h</key>
 		<data>
-		bASTe6EiRBJ41wKvSiQDB0fq168=
+		mVmRwzDHxmRYuRQaFkAXvn4U8LU=
 		</data>
 		<key>Headers/RCTTabBarItemManager.h</key>
 		<data>
@@ -458,7 +450,7 @@
 		</data>
 		<key>Headers/RCTTextView.h</key>
 		<data>
-		URAsYOtOE/ETh3GUr8TgVQesBFs=
+		CxUxCu9wySLrklxmz4g1A3FSldo=
 		</data>
 		<key>Headers/RCTTextViewManager.h</key>
 		<data>
@@ -490,7 +482,7 @@
 		</data>
 		<key>Headers/RCTUtils.h</key>
 		<data>
-		KhDLpjoCvP7slE4cnxeGaTjB6WY=
+		qXqPED8VK1IoJPhQqh5seP6dwS4=
 		</data>
 		<key>Headers/RCTView.h</key>
 		<data>
@@ -542,7 +534,7 @@
 		</data>
 		<key>Headers/React-umbrella.h</key>
 		<data>
-		XJtSTXmVChWWwYDIRFpvvlWS5U4=
+		+Tb+38iB9mRMCJASfxCtex9wcNw=
 		</data>
 		<key>Headers/UIView+Private.h</key>
 		<data>
@@ -554,7 +546,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pYlDD0uIEeuigUjI6EVdOaVnqIw=
+		4kzI1Waz7GNmyVOlkVQvQ97uRk8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -567,11 +559,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dcEMBZrlGDyCoItijHzTMWDNrdU=
+			Ptgi82E+Cmljn0MRZ7OzE2fqkVo=
 			</data>
 			<key>hash2</key>
 			<data>
-			WD+ZhPKCVaj/+iEG6fhdYhhRCQDnvnG3EPNQh+TBheU=
+			jtJUPDc5ilg5reDbhy2/pbSaO1a2YIqwYc9Hjji2KZs=
 			</data>
 		</dict>
 		<key>Headers/RCTAccessibilityManager.h</key>
@@ -622,11 +614,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6Uofg1Rwthd+fXsxTQtOYWTF03U=
+			+Ueq0M0TbXBdDt7T8oHxZZYm0TA=
 			</data>
 			<key>hash2</key>
 			<data>
-			hl1V/Co0B/5u4YFOv1Uw43Ia4Q/VghIDobSqYHgF5h4=
+			BVEZplefg1aAfBdCJH9e6+/5xQcQVX4xG+ts1cC0uDg=
 			</data>
 		</dict>
 		<key>Headers/RCTAssert.h</key>
@@ -710,11 +702,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QOufj9j1R/vvgFBtg5uH32ONyQY=
+			kk5FZxE8Tul3+xBM8kkiXnMTB6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			jWeuiyLXS9Jo1+Cc1xyHU2Gtkz+BsUveRr4JPI6zR7k=
+			7NWirTC8y+rDDUMvLfP1rgWzhzitpJR9kZuk2AtBhLc=
 			</data>
 		</dict>
 		<key>Headers/RCTBridgeMethod.h</key>
@@ -737,17 +729,6 @@
 			<key>hash2</key>
 			<data>
 			1Gmj+F41V4PIFv43AvWJPSpdEI1n/vX/4VsW9tw55M0=
-			</data>
-		</dict>
-		<key>Headers/RCTBundleURLProvider.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			m9J7t/fU01iCFhy13s6vDe+nFEk=
-			</data>
-			<key>hash2</key>
-			<data>
-			lAJu5h4D97UJKBE/TYEw0FvW3jc2odzuaNs7lYMATdE=
 			</data>
 		</dict>
 		<key>Headers/RCTClipboard.h</key>
@@ -897,11 +878,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U5dqasyXiAK7xpf2e8gPRxVsuQM=
+			hOEvRXOWI7JoqqcoK01X8XDdPbQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			SPJUbc7OjhxAwTbTmd06Pl4mRWELCQY9HGrdatW4mn0=
+			YAEZ5CPTBcOnLRlroXdnWFOZcTMnElcTDbUW3kLnhg0=
 			</data>
 		</dict>
 		<key>Headers/RCTEventEmitter.h</key>
@@ -1007,22 +988,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+s1TXljAo8gw2xgKz6P/nOOxS8U=
+			9KFnIiYLyB9U+c7KWA3L7zMzb9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			fcrq6ucaaVeLJbzdoCOfg8IIdTDXrr56nBUbupZbNCg=
+			2PfNFfMXMpFjTz6iwKSMFyBCAPsWdLSg/37mK4WCK7w=
 			</data>
 		</dict>
 		<key>Headers/RCTImageSource.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RfWDuOOlMh6jCM9d8tQ8ebc2PvI=
+			1nEEem0F2+JHCErog+eDOki8R1Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			URbDh/hJ7XZaZX25Fi3P4Y2jL7u5mL2cOUMLzMod5Is=
+			xwF/WjwTEg+5LJD0Pt67y7QC3c3Coy5KB5nblS9+8Hw=
 			</data>
 		</dict>
 		<key>Headers/RCTImageStoreManager.h</key>
@@ -1084,11 +1065,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nt1YpasXxJfIaACyyV3Z3DxwY6M=
+			HrzxPBML9XHkRhd88Xq4pKvZi60=
 			</data>
 			<key>hash2</key>
 			<data>
-			+91AtabZMM+rOdVMpA5qRxtHntZqoMOJ/1xZ+w+1uqI=
+			OY2mvdRj+WUWawdkMvyzrYn4Rq6h72Z6eknNKPmnrmE=
 			</data>
 		</dict>
 		<key>Headers/RCTJSCProfiler.h</key>
@@ -1100,17 +1081,6 @@
 			<key>hash2</key>
 			<data>
 			JU0tsNVgSQEmO2Ao0RaoGSmxWbNBf0rRFXcQA1HYOtI=
-			</data>
-		</dict>
-		<key>Headers/RCTJSCWrapper.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			StLYihWQKkt3uilD6VaEmB9bJg4=
-			</data>
-			<key>hash2</key>
-			<data>
-			4x0Uw2jGkezskpazLdsDRZF6VZG7NOmvKALJlqoVTIg=
 			</data>
 		</dict>
 		<key>Headers/RCTJavaScriptExecutor.h</key>
@@ -1139,11 +1109,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mNOrZlZ91Tv4MkTFBl+oGrttZC4=
+			m5oqMSfeSeDlgsJTlwACq+mWfu8=
 			</data>
 			<key>hash2</key>
 			<data>
-			yHx0T+a8K2wVchmLo0J9eSaldTIS1F/YIJVTsoLH/+8=
+			xOtrbUcLp4sL3ckjnVOIjnw9A4fsHL4TS6f4aVQYXO4=
 			</data>
 		</dict>
 		<key>Headers/RCTKeyboardObserver.h</key>
@@ -1326,11 +1296,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o10nXa+K5dThek253EedaMMiGuQ=
+			zYpnYmXlOxjhTRFIacl99S5qnq0=
 			</data>
 			<key>hash2</key>
 			<data>
-			YLHX9JUTlfh55pFTKxJ7fuiOr86GtBH1ZCYnSRcRujk=
+			3b+AIy2voeZGoZRMeQYjiuW6C15TNfmBWDceXyRHhCc=
 			</data>
 		</dict>
 		<key>Headers/RCTNetworkTask.h</key>
@@ -1348,11 +1318,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vWwD50GLgc8E4iz++NdTrm3IplA=
+			TLeEWWGFl4MnMEoGU+owC9L9sws=
 			</data>
 			<key>hash2</key>
 			<data>
-			XDcJ1D4QF2LzpCqgU+gdAJFXQ++X3ejs/CwMU3Yts2I=
+			+jKD7swPlQRWV9bJeWuQH6qK4h9oof5NqqOuzpja28M=
 			</data>
 		</dict>
 		<key>Headers/RCTNullability.h</key>
@@ -1381,11 +1351,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7FPlvxW39IOqrVEMBZUt1aLIX6c=
+			VrN3Z6/7gWHrs1cKanbJXr2YnlQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			UJoXTG+ziOTMsIkaD8lKOF/kAGDcgI/wriby1y+HiNE=
+			DxY4QoxChBwDmfQvG8xxbzlhmbSgkkgMQYBCBdSvLaw=
 			</data>
 		</dict>
 		<key>Headers/RCTPicker.h</key>
@@ -1557,11 +1527,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h1rZj1p8o6jdBg4T17IQdLKFNEs=
+			1DDmqNJBvMG+6DOt5HsdtN2Qauc=
 			</data>
 			<key>hash2</key>
 			<data>
-			A30EpnXsJbKdBVUjxxug7Xz5gdrlcOJWcnrYEwHjAJw=
+			2TJ+jhQhLDUe/F8GyMcxgi3/E6O828VrlHUKiUj2iVk=
 			</data>
 		</dict>
 		<key>Headers/RCTScrollViewManager.h</key>
@@ -1634,11 +1604,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xIhXNXSHLwU//uzoCokSIcFMG1s=
+			2Sk7QLdSBZ3ukChvTT3oLK3Ui8c=
 			</data>
 			<key>hash2</key>
 			<data>
-			jxVzrPQr7E/jnk3QVpq+K1vjT41/Nupupg1+gNf9tJ0=
+			1r9PKnzMm+mlA9rQhxjc7fuBzJoyvSCMZDFyPnrOzq4=
 			</data>
 		</dict>
 		<key>Headers/RCTSlider.h</key>
@@ -1722,11 +1692,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bASTe6EiRBJ41wKvSiQDB0fq168=
+			mVmRwzDHxmRYuRQaFkAXvn4U8LU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ulOnjHmpjalLkOvHMdE3DCSVDJkHDtn1Z/OM4ir12ug=
+			BCPxY+0ytYpPzjTB+NmSelulsdPL1MpJcjlx0g+CiH4=
 			</data>
 		</dict>
 		<key>Headers/RCTTabBarItemManager.h</key>
@@ -1810,11 +1780,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			URAsYOtOE/ETh3GUr8TgVQesBFs=
+			CxUxCu9wySLrklxmz4g1A3FSldo=
 			</data>
 			<key>hash2</key>
 			<data>
-			qL7Xzrj8b3vVRAgKUa+puNXVJs66hHy8lH2c4H6QETc=
+			xwSwzNe8pOntAQ++jSRv5LJ4ohagQGBPHure9+Wd8SI=
 			</data>
 		</dict>
 		<key>Headers/RCTTextViewManager.h</key>
@@ -1898,11 +1868,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KhDLpjoCvP7slE4cnxeGaTjB6WY=
+			qXqPED8VK1IoJPhQqh5seP6dwS4=
 			</data>
 			<key>hash2</key>
 			<data>
-			z5aIaM24+RKLIy/9P50AMAEQPhZsBSdHfdpjTYoDe4A=
+			6d5fd4Yybc+Una3vteZerRgXfBuqGHwVWUvPnoovrm8=
 			</data>
 		</dict>
 		<key>Headers/RCTView.h</key>
@@ -2041,11 +2011,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XJtSTXmVChWWwYDIRFpvvlWS5U4=
+			+Tb+38iB9mRMCJASfxCtex9wcNw=
 			</data>
 			<key>hash2</key>
 			<data>
-			fzCLCclTpYstCTh94aBf7GWEqP1vdxQMaFPab1+4v0U=
+			OkFpugfhj/tfizXAWnAZJxbpOVA7nbq15KzYaThBrKY=
 			</data>
 		</dict>
 		<key>Headers/UIView+Private.h</key>

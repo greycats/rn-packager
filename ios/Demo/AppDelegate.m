@@ -8,7 +8,7 @@
  */
 
 #import "AppDelegate.h"
-#import <Xealth/DemoView.h>
+@import Xealth;
 
 @implementation AppDelegate
 

@@ -8,26 +8,20 @@ Pod::Spec.new do |s|
   s.name         = "Xealth"
   s.version      = "0.0.1"
   s.summary      = "Demo project for packaging a react native app into a framework."
-  s.description  = <<-DESC
-  Demo project for packaging a react native app into a framework
-                   DESC
+  s.description  = "this project demostrates how to convert a React Native app(view) into a pod"
 
   s.homepage     = "https://github.com/greycats/rn-packager"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   s.license      = "BSD"
   s.author    = "Rex Sheng"
   s.platform     = :ios, '8.0'
 
-  #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
-
-  s.source       = { :git => "https://github.com/greycats/rn-packager.git", :tag => "#{s.version}" }
-  s.source_files  = "ios/DemoView.{h,m}"
-  # s.resources = "main.jsbundle"
+  # s.libraries = "stdc++", "c++"
+  # s.frameworks = "JavaScriptCore", "Foundation"
+  s.source = { :git => "https://github.com/greycats/rn-packager.git", :tag => "#{s.version}" }
+  s.source_files = "ios/DemoView.{h,m}"
+  s.public_header_files = 'ios/DemoView.h'
+  # s.public_header_files = 'ios/React.framework/Headers/*.h', 'ios/DemoView.h'
   s.resource_bundle = { 'XealthResource' => 'ios/main.jsbundle' }
   s.vendored_frameworks = 'ios/React.framework'
   s.requires_arc = true

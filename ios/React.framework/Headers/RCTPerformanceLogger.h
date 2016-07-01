@@ -24,8 +24,6 @@ typedef NS_ENUM(NSUInteger, RCTPLTag) {
   RCTPLNativeModulePrepareConfig,
   RCTPLNativeModuleInjectConfig,
   RCTPLNativeModuleMainThreadUsesCount,
-  RCTPLJSCWrapperOpenLibrary,
-  RCTPLJSCWrapperLoadFunctions,
   RCTPLJSCExecutorSetup,
   RCTPLBridgeStartup,
   RCTPLTTI,

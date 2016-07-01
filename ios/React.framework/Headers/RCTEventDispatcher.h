@@ -35,6 +35,7 @@ RCT_EXTERN const NSInteger RCTTextUpdateLagWarningThreshold;
 RCT_EXTERN NSString *RCTNormalizeInputEventName(NSString *eventName);
 
 @protocol RCTEvent <NSObject>
+
 @required
 
 @property (nonatomic, strong, readonly) NSNumber *viewTag;
@@ -59,25 +60,25 @@ RCT_EXTERN NSString *RCTNormalizeInputEventName(NSString *eventName);
 @interface RCTEventDispatcher : NSObject <RCTBridgeModule>
 
 /**
- * Deprecated, do not use.
+ * Send an application-specific event that does not relate to a specific
+ * view, e.g. a navigation or data update notification.
  */
-- (void)sendAppEventWithName:(NSString *)name body:(id)body
-__deprecated_msg("Subclass RCTEventEmitter instead");
+- (void)sendAppEventWithName:(NSString *)name body:(id)body;
 
 /**
- * Deprecated, do not use.
+ * Send a device or iOS event that does not relate to a specific view,
+ * e.g.rotation, location, keyboard show/hide, background/awake, etc.
  */
-- (void)sendDeviceEventWithName:(NSString *)name body:(id)body
-__deprecated_msg("Subclass RCTEventEmitter instead");
+- (void)sendDeviceEventWithName:(NSString *)name body:(id)body;
 
 /**
- * Deprecated, do not use.
+ * Send a user input event. The body dictionary must contain a "target"
+ * parameter, representing the React tag of the view sending the event
  */
-- (void)sendInputEventWithName:(NSString *)name body:(NSDictionary *)body
-__deprecated_msg("Use RCTDirectEventBlock or RCTBubblingEventBlock instead");
+- (void)sendInputEventWithName:(NSString *)name body:(NSDictionary *)body;
 
 /**
- * Send a text input/focus event. For internal use only.
+ * Send a text input/focus event.
  */
 - (void)sendTextEventWithType:(RCTTextEventType)type
                      reactTag:(NSNumber *)reactTag

@@ -58,6 +58,10 @@
 @property (nonatomic, copy) RCTDirectEventBlock onMomentumScrollEnd;
 @property (nonatomic, copy) RCTDirectEventBlock onScrollAnimationEnd;
 
+// Pull-to-refresh support (deprecated - use RCTPullToRefreshControl instead)
+@property (nonatomic, copy) RCTDirectEventBlock onRefreshStart;
+- (void)endRefreshing;
+
 @end
 
 @interface RCTEventDispatcher (RCTScrollView)

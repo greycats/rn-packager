@@ -7,7 +7,7 @@
 //
 
 #import "DemoView.h"
-#import "RCTRootView.h"
+@import React;
 
 @implementation DemoView
 
