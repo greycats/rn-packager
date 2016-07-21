@@ -1,3 +1,5 @@
 rootProject.name = 'Demo'
 
-include ':app', ':mylibrary'
+include ':app', ':mylibrary', ':react-native-0.27.2'
+project(':react-native-0.27.2').projectDir = new File('react-native-0.27.2')
+
